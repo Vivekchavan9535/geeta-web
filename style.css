@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+body{
+    background-color:cornsilk;
+}
+.navbar{
+    height: 90px;
+    background-color: #e7f59e;
+}
+.navname h1{
+    color: black;
+    font-size: 60px;
+    word-spacing: 10px;
+   font-family: 'Times New Roman', Times, serif;
+
+    text-align: center;
+}
+
+/* box2 img */
+.vivekimg{
+    display: flex;
+    justify-content: center;
+   
+}
+.image1{
+    margin-top: 40px;
+    height:500px;
+    width: 500px;
+    background-color: antiquewhite;
+    background-image: url(https://5.imimg.com/data5/UP/LE/MY-11183377/bhagavad-gita-28hindi-29-500x500.png);
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: multiply;
+}
+
+/* paragraph */
+.write{
+    display: flex;
+    justify-content: center;
+ 
+    text-align: center;
+}
+.words1{
+    /* background-color: antiquewhite; */
+    margin-top: 20px;
+    height: 400px;
+    width: 700px;
+    font-size: 20px;
+    
+    word-spacing: 1px;
+    line-height: 30px;
+
+}
+
+@media screen and (max-width:400px) {
+    html{
+        font-size: 62.5%;
+    }
+    .navbar{
+        height: 2.0rem;
+    }
+    .navname h1{
+        font-size: 1.5rem;
+    }
+    .image1{
+        margin-top:1rem;
+        height:20rem;
+        width: 20rem;
+    }
+    .words1{
+        margin-top:1rem;
+        
+        height: 30rem;
+        width: 30rem;
+        font-size: 0.95rem;
+        word-spacing: 0.3rem;
+        line-height: 1rem;
+    
+    }
+    
+}
